@@ -1,0 +1,84 @@
+# -----------------------------
+# Python / Streamlit App
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# -----------------------------
+# Project Data (Sensitive)
+# -----------------------------
+data/raw/
+data/input/
+data/output/
+data/temp/
+data/cache/
+data/ocr/
+data/extracted/
+data/merged/
+
+# Allow sample data
+!data/sample/
+!data/sample/**
+
+# CSV, Excel, PDF (generated or uploaded)
+*.csv
+*.xlsx
+*.xls
+*.pdf
+*.docx
+*.txt
+
+# Temporary files created during parsing
+*.tmp
+*.log
+*.bak
+
+# -----------------------------
+# OCR / PDF Parsing
+# -----------------------------
+ocr_output/
+pdf_chunks/
+pdf_images/
+tessdata/
+*.traineddata
+
+# -----------------------------
+# Streamlit
+# -----------------------------
+.streamlit/secrets.toml
+.streamlit/*.json
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+~$*
